@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Assignment2.Persistence;
+using Assigment2.Persistence;
 using Models;
 
 namespace Assignment2.Data

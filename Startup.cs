@@ -1,17 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Assigment2.Data;
+using Assignment2.Data;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Assigment2.Data;
 
-namespace Assigment2
+namespace Assignment2
 {
     public class Startup
     {
@@ -28,7 +24,15 @@ namespace Assigment2
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
+            services.AddScoped<IAdultService, AdultServiceJSON>();
+            services.AddScoped<IUserService, UserServiceInMemory>();
+            services.AddScoped<AuthenticationStateProvider, AAuthenticationStateProvider>();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("LoggedInOnly", a => a.RequireAuthenticatedUser().RequireClaim("Role", "ADMIN", "MEMBER"));
+                options.AddPolicy("AdminOnly", a => a.RequireAuthenticatedUser().RequireClaim("Role", "ADMIN"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

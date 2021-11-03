@@ -1,7 +1,15 @@
-﻿namespace Assignment2.Data
+﻿using System.Collections.Generic;
+using Models;
+
+namespace Assignment2.Data
 {
-    public class IAdultService
+    public interface IAdultService
     {
-        
+        IList<Adult> GetAllAdults();
+        void AddAdult(Adult adult);
+        IList<Job> GetAllJobs();
+        void RemoveAdult(int id);
+        void UpdateAdult(Adult adult);
+        Adult GetAdultById(int id);
     }
 }

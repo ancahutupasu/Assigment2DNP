@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
 using Models;
 
-namespace Assignment2.Data
+namespace Assigment2.Data
 {
     public class AAuthenticationStateProvider : AuthenticationStateProvider
     {
@@ -27,11 +27,11 @@ namespace Assignment2.Data
             var identity = new ClaimsIdentity();
             if (_cachedUser == null)
             {
-                var userAsJson = await _jsRuntime.InvokeAsync<string>("sessionStorage.getItem", "currentUser");
+                string userAsJson = await _jsRuntime.InvokeAsync<string>("sessionStorage.getItem", "currentUser");
                 if (!string.IsNullOrEmpty(userAsJson))
                 {
-                    var tmp = JsonSerializer.Deserialize<User>(userAsJson);
-                    ValidateLogin(tmp.UserName, tmp.Password);
+                    User tmp = JsonSerializer.Deserialize<User>(userAsJson);
+                    if (tmp != null) ValidateLogin(tmp.UserName, tmp.Password);
                 }
             }
             else
@@ -39,7 +39,7 @@ namespace Assignment2.Data
                 identity = SetupClaimsForUser(_cachedUser);
             }
 
-            var cachedClaimsPrincipal = new ClaimsPrincipal(identity);
+            ClaimsPrincipal cachedClaimsPrincipal = new ClaimsPrincipal(identity);
             return await Task.FromResult(new AuthenticationState(cachedClaimsPrincipal));
         }
 
@@ -49,7 +49,7 @@ namespace Assignment2.Data
             if (string.IsNullOrEmpty(username)) throw new Exception("Enter username");
             if (string.IsNullOrEmpty(password)) throw new Exception("Enter password");
 
-            var identity = new ClaimsIdentity();
+            ClaimsIdentity identity;
             try
             {
                 var user = _userService.ValidateUser(username, password);
@@ -57,10 +57,11 @@ namespace Assignment2.Data
                 var serialisedData = JsonSerializer.Serialize(user);
                 _jsRuntime.InvokeVoidAsync("sessionStorage.setItem", "currentUser", serialisedData);
                 _cachedUser = user;
+                
             }
             catch (Exception e)
             {
-                throw e;
+                throw;
             }
 
             NotifyAuthenticationStateChanged(
@@ -81,7 +82,7 @@ namespace Assignment2.Data
             claims.Add(new Claim(ClaimTypes.Name, user.UserName));
             claims.Add(new Claim("Role", user.Role));
 
-            var identity = new ClaimsIdentity(claims, "apiauth_type");
+            var identity = new ClaimsIdentity(claims, "apiauth type");
             return identity;
         }
     }
