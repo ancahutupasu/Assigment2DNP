@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Assigment2</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

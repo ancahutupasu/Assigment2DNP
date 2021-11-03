@@ -5,55 +5,11 @@
     <projectFile profileName="Assigment2">Assigment2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e26e8bc6-cd50-4d49-bba6-f36097efc51d" name="Changes" comment="q">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Assigment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assigment2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assigment2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/AAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Data/AAuthenticationStateProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/AdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Data/AdultService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/IAdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Data/IAdultService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Data/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Data/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Models/Adult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Models/Job.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/AddAdult.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/AddAdult.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/DetailsAdult.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/DetailsAdult.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/EditAdult.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/EditAdult.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/Error.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Error.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/Error.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/Login.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ViewAdults.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/ViewAdults.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Pages/_Host.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/FileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Persistence/FileContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Shared/MainLayout.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/NavMenu.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Shared/NavMenu.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/SurveyPrompt.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/adults.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/bootstrap/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/FONT-LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/ICON-LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor/wwwroot/favicon.ico" afterDir="false" />
+    <list default="true" id="e26e8bc6-cd50-4d49-bba6-f36097efc51d" name="Changes" comment="a">
+      <change beforePath="$PROJECT_DIR$/Assigment2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment2.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/_Host.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/NavMenu.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +26,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="20Q58jwhjZVwKc1VhjW1iI3tJBH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -77,6 +38,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34960768" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -124,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635963814326</updated>
       <workItem from="1635963820752" duration="411000" />
-      <workItem from="1635964884767" duration="8799000" />
+      <workItem from="1635964884767" duration="9209000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1635963864114</created>
@@ -168,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635971645196</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="a">
+      <created>1635974625281</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635974625281</updated>
+    </task>
+    <task id="LOCAL-00008" summary="a">
+      <created>1635974664184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635974664184</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +172,7 @@
     <MESSAGE value="try" />
     <MESSAGE value="1" />
     <MESSAGE value="q" />
-    <option name="LAST_COMMIT_MESSAGE" value="q" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
